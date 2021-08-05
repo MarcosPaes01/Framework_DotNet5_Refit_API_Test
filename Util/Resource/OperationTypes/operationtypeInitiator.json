@@ -1,0 +1,85 @@
+{
+  "credit": false,
+  "reverseAllowed": true,
+  "limitCheck": true,
+  "otherCurrencyAllowed": true,
+  "valueDateAllowed": true,
+  "availabilityDateAllowed": false,
+  "confirmationNecessary": false,
+  "operationTypeBusinessCategoryCode": 20901,
+  "prenotificationType": {
+    "prenotificationTypeCode": 1,
+    "description": "Cards Authorization",
+    "active": true,
+    "multiConfirmationAllowed": true,
+    "maxTransactionCountAllowed": 1,
+    "differentConfirmationAmountAllowed": true,
+    "differentConfirmationCountAllowed": true
+  },
+  "receivers": [
+    {
+      "default": true,
+      "receiverOperationType": {
+        "operationTypeCode": 532040,
+        "shortDescription": "Cred.for Commerce Trx",
+        "description": "Cred.for Commerce Trx",
+        "operationClass": {
+          "operationClassId": 0,
+          "description": "Cred.for Commerce Trx"
+        },
+        "operationsTypesClass": {
+          "operationTypeClassId": 1,
+          "description": "General"
+        }
+      }
+    }
+  ],
+  "businessOperations": [
+    {
+      "businessOperationId": 90032,
+      "description": "Commerce Trx",
+      "differentiationMethod": "default (siempre 0)"
+    }
+  ],
+  "glOperations": [
+    {
+      "businessUnitId": 1,
+      "glOperationId": 100007
+    },
+    {
+      "businessUnitId": 2,
+      "glOperationId": 100007
+    },
+    {
+      "businessUnitId": 3,
+      "glOperationId": 100007
+    },
+    {
+      "businessUnitId": 4,
+      "glOperationId": 100007
+    },
+    {
+      "businessUnitId": 5,
+      "glOperationId": 100007
+    },
+    {
+      "businessUnitId": 6,
+      "glOperationId": 100007
+    },
+    {
+      "businessUnitId": 7,
+      "glOperationId": 100007
+    }
+  ],
+  "operationTypeCode": 131040,
+  "shortDescription": "Deb.for Commerce Trx",
+  "description": "Deb.for Commerce Trx",
+  "operationClass": {
+    "operationClassId": 1,
+    "description": "Initiator Item"
+  },
+  "operationsTypesClass": {
+    "operationTypeClassId": 1,
+    "description": "General"
+  }
+}
