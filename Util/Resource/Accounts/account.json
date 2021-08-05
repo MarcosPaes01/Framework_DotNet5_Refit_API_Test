@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "Active": "47001",
+    "Closed": "47200",
+    "NotExists": "XXXVIII4487",
+    "LockCredit": "470001",
+    "LockDebit": "470002",
+    "Limit": "4700001"
+  },
+  "Systemic": {
+    "Active": "57000",
+    "Closed": "57200",
+    "NotExists": "LXXXVI45875",
+    "LockCredit": "570001",
+    "LockDebit": "570002"
+  }
+}

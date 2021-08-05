@@ -1,0 +1,59 @@
+{
+  "SimulationMode": true,
+  "Channel": "2",
+  "BusinessOperation": "90001",
+  "CommentOnTurnover": "IntegrationTests_Transactions",
+  "BusinessUnit": "2",
+  "ExternalOperationReferenceNumber": "1",
+  "ExternalPrenoteReferenceNumber": null,
+  "Initiator": {
+    "OperationNumber": "1",
+    "AccountNrType": "1",
+    "BankKey": "1",
+    "AccountNumber": "TRX_AR_C",
+    "OperationAmount": {
+      "Currency": "ARS",
+      "Amount": "200.00"
+    },
+    "AccountAmount": {
+      "Currency": "ARS",
+      "Amount": "200.00"
+    },
+    "CompensationAmount": {
+      "Currency": "ARS",
+      "Amount": "200.00"
+    },
+    "ExchangeRate": "1.00",
+    "ExchangeRateCompensation": "1.00",
+    "CurrencyPairOriginalAccountCurrency": "ARS/ARS",
+    "CurrencyPairCompensationAccountCurrency": "ARS/ARS",
+    "IndicatorCreditOperation": false,
+    "OperationNote": null
+  },
+  "Receivers": [
+    {
+      "OperationNumber": "1",
+      "AccountNrType": "1",
+      "BankKey": "1",
+      "AccountNumber": "TRX_AR_S",
+      "OperationAmount": {
+        "Currency": "ARS",
+        "Amount": "200.00"
+      },
+      "AccountAmount": {
+        "Currency": "ARS",
+        "Amount": "200.00"
+      },
+      "CompensationAmount": {
+        "Currency": "ARS",
+        "Amount": "200.00"
+      },
+      "ExchangeRate": "1.00",
+      "ExchangeRateCompensation": "1.00",
+      "CurrencyPairOriginalAccountCurrency": "ARS/ARS",
+      "CurrencyPairCompensationAccountCurrency": "ARS/ARS",
+      "IndicatorCreditOperation": true,
+      "OperationNote": null
+    }
+  ]
+}

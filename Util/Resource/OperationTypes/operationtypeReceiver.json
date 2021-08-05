@@ -1,0 +1,60 @@
+{
+  "credit": true,
+  "reverseAllowed": true,
+  "limitCheck": true,
+  "otherCurrencyAllowed": false,
+  "valueDateAllowed": false,
+  "availabilityDateAllowed": false,
+  "confirmationNecessary": false,
+  "operationTypeBusinessCategoryCode": 31505,
+  "prenotificationType": {
+    "prenotificationTypeCode": 3,
+    "description": "Massive Payment Authorization",
+    "active": true,
+    "multiConfirmationAllowed": true,
+    "maxTransactionCountAllowed": 999999999,
+    "differentConfirmationAmountAllowed": true,
+    "differentConfirmationCountAllowed": true
+  },
+  "glOperations": [
+    {
+      "businessUnitId": 1,
+      "glOperationId": 100038
+    },
+    {
+      "businessUnitId": 2,
+      "glOperationId": 100038
+    },
+    {
+      "businessUnitId": 3,
+      "glOperationId": 100038
+    },
+    {
+      "businessUnitId": 4,
+      "glOperationId": 100038
+    },
+    {
+      "businessUnitId": 5,
+      "glOperationId": 100038
+    },
+    {
+      "businessUnitId": 6,
+      "glOperationId": 100038
+    },
+    {
+      "businessUnitId": 7,
+      "glOperationId": 100038
+    }
+  ],
+  "operationTypeCode": 502051,
+  "shortDescription": "Cred.for Payroll Paym To Associated Providers",
+  "description": "Cred.for Payroll Paym To Associated Providers",
+  "operationClass": {
+    "operationClassId": 2,
+    "description": "Receiver Item"
+  },
+  "operationsTypesClass": {
+    "operationTypeClassId": 1,
+    "description": "General"
+  }
+}
